@@ -3,7 +3,7 @@ export default function NotFound(){
         <>
             <div className="mt-100 text-center">
                 <h2>Not Found</h2>
-                <p>The event you are searching for is not found</p>
+                <p>The event/resource you are searching for is not found</p>
             </div>
         </>
     );

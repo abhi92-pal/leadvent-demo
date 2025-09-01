@@ -32,8 +32,8 @@ const Header = () => {
                                     <li className="dropdown">
                                         <Link href="#" className="dropdown-toggle" data-toggle="dropdown">All Events<i className="fa fa-angle-down ml-5"></i></Link>
                                         <ul className="dropdown-menu menu-center" role="menu">
-                                            <li><Link href="event.html">Upcoming Events</Link></li>
-                                            <li><Link href="event.html">Past Events</Link></li>
+                                            <li><Link href="/upcoming/events">Upcoming Events</Link></li>
+                                            <li><Link href="/past/events">Past Events</Link></li>
                                         </ul>
                                     </li>
 
