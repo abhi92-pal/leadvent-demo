@@ -32,6 +32,24 @@ export default function RootLayout({ children }) {
 				<link rel="stylesheet" href="/assets/css/responsive.css" />
 			</head>
 			<body className={`${geistSans.variable} ${geistMono.variable}`}>
+				<noscript>
+					<div
+						style={{
+							position: "fixed",
+							bottom: 0,
+							left: 0,
+							width: "100%",
+							background: "red",
+							color: "white",
+							padding: "12px",
+							textAlign: "center",
+							zIndex: 9999,
+						}}
+					>
+						JavaScript is disabled in your browser. Please enable it to use this
+						website.
+					</div>
+				</noscript>
 				<Header />
 				{children}
 
